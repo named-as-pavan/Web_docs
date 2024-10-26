@@ -84,10 +84,10 @@ const Navbar = () => {
                             About
                         </Link>
                         <div className='container flex items-center gap-4'>
-                            <div className='gap-6'>
+                            {/* <div className='gap-6'>
                             <Button className="mx-1 border-2 border-gray-600" variant="outline">Logins</Button>
                             <Button className="mx-1 border-2 border-gray-600" variant="outline">Signup</Button>
-                            </div>
+                            </div> */}
                             <ModeToggle/>
                         </div>
                     </div>
